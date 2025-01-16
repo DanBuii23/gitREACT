@@ -27,7 +27,7 @@ function Reputation() {
                     Our Reputation
                 </h1>
             </div>
-            <div class="flex flex-row justify-around mx-auto">
+            <div className="flex flex-row justify-around mx-auto">
                 {repu.map((repu) => (
                     <div className="border-solid border-2 border-slate-400 text-left w-[210px] h-[140px] p-3">
                         <img src={repu.icon}></img>

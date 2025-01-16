@@ -5,8 +5,8 @@ import Next from '../Images/Next Button.png'
 function Popup() {
     return (
         <div>
-            <img class="-mb-1 border-solid" src={Pop}></img>
-            <div class="flex justify-between">
+            <img className="-mb-1 border-solid" src={Pop}></img>
+            <div className="flex justify-between">
                 <button><img src={Back}></img></button>
                 <button><img src={Next}></img></button>
             </div>

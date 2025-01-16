@@ -7,13 +7,13 @@ import ServiceCard6 from '../Images/ServiceCard6.png'
 
 function Serviecs() {
     return (
-        <div class="bg-neutral-50 h-[440px]">
+        <div className="bg-neutral-50 h-[440px]">
             <div>
-                <h1 class="pt-5 text-center text-xl font-bold">
+                <h1 className="pt-5 text-center text-xl font-bold">
                     Services
                 </h1>
             </div>
-            <div class="grid grid-rows-2 grid-flow-col gap-4 justify-center">
+            <div className="grid grid-rows-2 grid-flow-col gap-x-8 justify-center">
                 <div>
                     <img src={ServiceCard}></img>
                 </div>

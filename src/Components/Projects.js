@@ -33,39 +33,39 @@ function Projects() {
     return (
         <div className="h-[800px]">
             <h1>
-                <ul class="text-3xl font-bold pt-20 pb-5 pl-32">Projects</ul>
+                <ul className="text-3xl font-bold pt-20 pb-5 pl-32">Projects</ul>
             </h1>
-            <div class="flex">
-                <div class="basis-1/3 pl-36 font-semibold text-gray-400">
+            <div className="flex">
+                <div className="basis-1/3 pl-36 font-semibold text-gray-400">
                     {pList.map((p) => (
                         <li key={p.link} className={currentPath === p.link ? "text-orange-300 font-bold list-none" : "list-none"}>{p.name}</li>
                     ))}
                 </div>
-                <div class="basis-2/3">
-                    <div class="grid grid-rows-2 grid-flow-col gap-3 justify-center">
-                        <div class="m-3">
+                <div className="basis-2/3">
+                    <div className="grid grid-rows-2 grid-flow-col gap-3 justify-center">
+                        <div className="m-3">
                             <img src={ProjectCard}></img>
                         </div>
-                        <div class="m-3">
+                        <div className="m-3">
                             <img src={ProjectCard2}></img>
                         </div>
-                        <div class="m-3">
+                        <div className="m-3">
                             <img src={ProjectCard3}></img>
                         </div>
-                        <div class="m-3">
+                        <div className="m-3">
                             <img src={ProjectCard4}></img>
                         </div>
                     </div>
-                    <div class="grid grid-row-1 grid-flow-col gap-3 justify-center">
-                        <div class="">
-                            <button><img class="bg-cover" src={BackButton}></img></button>
-                        </div>
-                        <div class="flex items-center">
+                    <div className="grid grid-row-1 grid-flow-col gap-3 justify-center">
+
+                        <button><img className="bg-cover" src={BackButton}></img></button>
+
+                        <div className="flex items-center">
                             <img src={PageControl}></img>
                         </div>
-                        <div class="">
-                            <button><img class="bg-cover" src={NextButton}></img></button>
-                        </div>
+
+                        <button><img className="bg-cover" src={NextButton}></img></button>
+
                     </div>
                 </div>
             </div>
