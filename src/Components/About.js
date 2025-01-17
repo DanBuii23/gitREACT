@@ -1,6 +1,6 @@
 function About() {
     return (
-        <div className="flex items-center relative h-[600px]">
+        <div className="container mx-auto flex items-center relative h-[600px]">
             <div className="bg-about bg-cover h-full w-2/3"></div>
             <div className="absolute bg-blue-900 text-white rounded-md h-[410px] w-1/3 right-20 container mx-auto flex-col " >
                 <h1 className="text-3xl font-bold pt-8 pl-8">About Us</h1>

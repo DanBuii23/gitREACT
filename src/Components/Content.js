@@ -4,8 +4,8 @@ import Popup from './Popup';
 function Content() {
     return (
 
-        <div className="relative bg-content bg-cover bg-center flex items-center h-[472px]">
-            <div className='font-bold text-5xl pl-28'>
+        <div className="relative bg-content bg-cover bg-center flex items-center h-[660px]">
+            <div className='font-bold text-6xl pl-28'>
                 Building things
                 <br></br>
                 is our mission.

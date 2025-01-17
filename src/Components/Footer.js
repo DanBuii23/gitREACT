@@ -24,9 +24,9 @@ const iSocial = [
 
 function Footer() {
     return (
-        <footer className='text-md'>
-            <div className="flex">
-                <div className="basis-1/2 p-10">
+        <footer className='text-2xl py-4'>
+            <div className="container mx-auto flex">
+                <div className="basis-1/2 p-10 ">
                     <p className="text-blue-500 p-2">ADDRESS: <span className="text-black">6391 Elgin St. Celina, Delaware 10299</span></p>
                     <p className="text-blue-500 p-2">PHONE: <span className="text-black">+84 1102 2703</span></p>
                     <p className="text-blue-500 p-2">EMAIL: <span className="text-black">hello@thebox.com</span></p>

@@ -21,7 +21,7 @@ const repu = [
 
 function Reputation() {
     return (
-        <div className=' mx-auto m-10 p-10'>
+        <div className='container mx-auto m-10 p-10'>
             <h1 className="m-10 text-center text-2xl font-bold">
                 Our Reputation
             </h1>
