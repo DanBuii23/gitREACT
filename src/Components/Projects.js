@@ -9,12 +9,10 @@ const pList = [
         link: '/all'
     },
     {
-
         name: "Commerial",
         link: '/commerial'
     },
     {
-
         name: "Residential",
         link: '/residential'
     },
@@ -24,7 +22,6 @@ const pList = [
         link: '/other'
     },
 ]
-
 const pbox = [
     {
         name: "Wildstone Infra Hotel",
@@ -70,7 +67,6 @@ function Projects() {
                                     <p className='text-sm'>{p.location}</p>
                                 </div>
                             </div>))}
-
                     </div>
                     <div className="grid grid-rows grid-flow-col gap-2 justify-stretch h-[45px]" >
                         <button className='flex justify-center items-center bg-black text-white mx-auto w-[215px] border-2 border-solid'><div className='flex items-center'>
@@ -79,7 +75,6 @@ function Projects() {
                             </svg>
                             Back
                         </div></button>
-
                         <div className="flex items-center justify-center gap-2">
                             <button className='w-2 h-2 bg-blue-500 text-white rounded-full flex items-center justify-center shadow-md'></button>
                             <button className='w-2 h-2 bg-gray-400 text-white rounded-full flex items-center justify-center shadow-md'></button>
@@ -87,15 +82,12 @@ function Projects() {
                             <button className='w-2 h-2 bg-gray-400 text-white rounded-full flex items-center justify-center shadow-md'></button>
                             <button className='w-2 h-2 bg-gray-400 text-white rounded-full flex items-center justify-center shadow-md'></button>
                         </div>
-
                         <button className='flex justify-center items-center bg-black text-white mx-auto w-[215px] border-2 border-solid'><div className='flex items-center'>
                             Next
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
                                 <path fill-rule="evenodd" d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
                             </svg>
-
                         </div></button>
-
                     </div>
                 </div>
             </div>

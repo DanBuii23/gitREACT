@@ -1,4 +1,4 @@
-import Herobg from '../Images/Herobg.jpg'
+import '../css/content.css';
 import Popup from './Popup';
 
 function Content() {

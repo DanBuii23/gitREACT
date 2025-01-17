@@ -1,0 +1,6 @@
+.bg-content {
+  background-image: linear-gradient(to right, white, rgba(255, 255, 255, 0)),
+    url("../Images/Herobg.jpg");
+  background-size: cover;
+  background-position: center;
+}
