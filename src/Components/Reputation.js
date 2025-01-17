@@ -27,12 +27,12 @@ function Reputation() {
                     Our Reputation
                 </h1>
             </div>
-            <div className="flex flex-row justify-around mx-auto">
+            <div className="flex flex-row justify-center mx-auto gap-12">
                 {repu.map((repu) => (
-                    <div className="border-solid border-2 border-slate-400 text-left w-[210px] h-[140px] p-3">
+                    <div className="border-solid border-2 border-slate-300 text-left w-[210px] h-[140px] p-3 overflow-clip">
                         <img src={repu.icon}></img>
-                        <h4 className="font-bold block ml-0">{repu.title}</h4>
-                        <p>{repu.description}</p>
+                        <h4 className="font-bold block text-slate-800 ml-0">{repu.title}</h4>
+                        <p className='text-slate-400'>{repu.description}</p>
                     </div>
                 ))}
 

@@ -2,20 +2,20 @@
 function Contact() {
     return (
         <div className="flex h-[530px] items-center">
-            <div className="basis-2/3 relative pl-36">
-                <div className="absolute border-solid border-2 shadow-lg p-5 z-10 bottom-[15px] w-[260px] h-[110px]">
+            <div className="basis-2/3 relative pl-36 w-full h-full overflow-hidden">
+                <div className="absolute border-solid border-2 shadow-lg p-5 z-10 top-28 w-[260px] h-[110px]">
                     <h1 className="text-3xl font-bold">123</h1>
                     <h3>Projects Completed</h3>
                 </div>
-                <div className="absolute border-solid border-2 shadow-lg p-5 left-[380px] bottom-[85px] z-30 bg-white w-[200px] h-[110px]">
+                <div className="absolute border-solid border-2 shadow-lg p-5 left-[380px] top-16 z-30 bg-white w-[200px] h-[110px]">
                     <h1 className="text-3xl font-bold">84</h1>
                     <h3>Happy Clients</h3>
                 </div>
-                <div className="absolute border-solid border-2 shadow-lg p-5 left-52 -bottom-32 z-10 w-[240px] h-[110px]">
+                <div className="absolute border-solid border-2 shadow-lg p-5 left-52 top-[280px] z-10 w-[240px] h-[110px]">
                     <h1 className="text-3xl font-bold">30</h1>
                     <h3>Years in Business</h3>
                 </div>
-                <div className="absolute border-solid border-2 shadow-lg p-5 left-[355px] -top-10 z-20 bg-white w-[200px] h-[110px]">
+                <div className="absolute border-solid border-2 shadow-lg p-5 left-[355px] bottom-52 z-20 bg-white w-[200px] h-[110px]">
                     <h1 className="text-3xl font-bold">37</h1>
                     <h3>Awards Win</h3>
                 </div>

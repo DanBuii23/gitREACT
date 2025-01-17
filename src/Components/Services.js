@@ -1,8 +1,8 @@
 import ServiceCard from '../Images/sv1.png'
-import ServiceCard2 from '../Images/sv3.png'
-import ServiceCard3 from '../Images/sv5.png'
-import ServiceCard4 from '../Images/sv2.png'
-import ServiceCard5 from '../Images/sv4.png'
+import ServiceCard2 from '../Images/sv4.png'
+import ServiceCard3 from '../Images/sv2.png'
+import ServiceCard4 from '../Images/sv5.png'
+import ServiceCard5 from '../Images/sv3.png'
 import ServiceCard6 from '../Images/sv6.png'
 
 function Serviecs() {
