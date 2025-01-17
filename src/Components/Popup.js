@@ -1,7 +1,7 @@
 function Popup() {
     return (
         <div>
-            <div className='container mx-auto flex-col bg-blue-900 text-white px-10 py-3'>
+            <div className=' mx-auto flex-col bg-blue-900 text-white px-10 py-3'>
                 <h1 className='text-center font-bold text-xl'>Freature Projects</h1>
                 <p className='py-3 font-thin text-md text-center'>The National University of <br></br>Architecture</p>
             </div>

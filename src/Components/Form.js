@@ -5,7 +5,7 @@ function Form() {
                 What can us do for you?
             </h1>
             <h5 className="m-2">We are ready to work on a project of any complexity, <br></br>whether it’s commercial or residential.</h5>
-            <div className="w-[450px] justify-self-center mx-auto">
+            <div className="w-1/2 justify-self-center mx-auto">
                 <div className="flex w-full">
                     <input type="text" className="p-2 m-2 ml-0 w-1/2 text-sm" placeholder="Your Name" />
                     <input type="email" className="p-2 m-2 mr-0 w-1/2 text-sm" placeholder="Email" />

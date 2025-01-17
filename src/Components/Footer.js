@@ -24,7 +24,7 @@ const iSocial = [
 
 function Footer() {
     return (
-        <footer className='h-[330px] text-sm'>
+        <footer className='text-md'>
             <div className="flex">
                 <div className="basis-1/2 p-10">
                     <p className="text-blue-500 p-2">ADDRESS: <span className="text-black">6391 Elgin St. Celina, Delaware 10299</span></p>
@@ -37,9 +37,9 @@ function Footer() {
                 </div>
                 <div className="basis-1/2 p-10">
                     <p className="text-blue-500 p-2">NEWSLETTER:</p>
-                    <div className="flex h-6">
-                        <input className="w-1/2 p-2 mx-2 border-solid border-2 text-xs" type="text" placeholder="Your email here"></input>
-                        <button className="bg-orange-500 text-white px-2 text-xs font-semibold w-36 rounded-sm">Subcribe</button>
+                    <div className="flex h-8">
+                        <input className="w-1/2 p-2 mx-2 border-solid border-2 text-md" type="text" placeholder="Your email here"></input>
+                        <button className="bg-orange-500 text-white px-1 text-md font-semibold w-36 rounded-sm">Subcribe</button>
                     </div>
                     <p className="text-blue-500 p-2">SOCIAL:</p>
                     <div className="flex mx-2">
