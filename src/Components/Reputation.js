@@ -21,17 +21,15 @@ const repu = [
 
 function Reputation() {
     return (
-        <div className='h-[320px] container mx-auto'>
-            <div className="m-10">
-                <h1 class="m-10 text-center text-2xl font-bold">
-                    Our Reputation
-                </h1>
-            </div>
-            <div className="flex flex-row justify-center mx-auto gap-12">
+        <div className='h-[310px] container mx-auto'>
+            <h1 className="m-10 text-center text-2xl font-bold">
+                Our Reputation
+            </h1>
+            <div className="flex flex-row justify-center gap-12">
                 {repu.map((repu) => (
-                    <div className="border-solid border-2 border-slate-300 text-left w-[210px] h-[140px] p-3 overflow-clip">
+                    <div key={repu.title} className="border-solid border-2 border-slate-300 text-left w-[210px] h-[140px] p-3 overflow-clip">
                         <img src={repu.icon}></img>
-                        <h4 className="font-bold block text-slate-800 ml-0">{repu.title}</h4>
+                        <h4 className="font-bold block text-slate-700 ml-0">{repu.title}</h4>
                         <p className='text-slate-400'>{repu.description}</p>
                     </div>
                 ))}

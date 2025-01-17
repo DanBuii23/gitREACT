@@ -10,7 +10,7 @@ function Form() {
                     <input type="text" className="p-2 m-2 ml-0 w-1/2 text-sm" placeholder="Your Name" />
                     <input type="email" className="p-2 m-2 mr-0 w-1/2 text-sm" placeholder="Email" />
                 </div>
-                <div class="flex w-full">
+                <div className="flex w-full">
                     <input type="text" className="p-2 m-2 ml-0 w-1/2 text-sm" placeholder="Reason for Contacting" />
                     <input type="text" className="p-2 m-2 mr-0 w-1/2 text-sm" placeholder="Phone" />
                 </div>

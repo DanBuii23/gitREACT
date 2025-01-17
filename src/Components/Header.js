@@ -27,7 +27,7 @@ const menus = [
 function Header() {
     const currentPath = "/"
     return (
-        <div className="container mx-auto flex items-center justify-between m-5">
+        <div className="container mx-auto flex items-center justify-between m-4 px-8">
             <div className="flex gap-2 ml-10">
                 <img src={Logo} className="object-contain"></img>
                 <img src={TheBox} className="object-contain"></img>
